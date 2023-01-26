@@ -37,7 +37,7 @@ function App() {
 
   // delete
   const deleteTask =(id) =>{
-   setTasks(tasks.filter((tasks) =>tasks.id !== id))
+   setTasks(tasks.filter((task) =>task.id !== id))
    
   }
 
